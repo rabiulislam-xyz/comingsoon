@@ -31,6 +31,15 @@ Primary use:
   src: url('../fonts/Poppins/Poppins-Black.ttf'); 
 }
 
+@font-face {
+  font-family: BroshK;
+  src: url('../fonts/broshk/BroshK.ttf'); 
+}
+
+@font-face {
+  font-family: Redressed;
+  src: url('../fonts/redressed/Redressed.ttf'); 
+}
 
 /*//////////////////////////////////////////////////////////////////
 [ RS PLUGIN ]*/
@@ -100,7 +109,7 @@ Primary use:
 [ L-Text >= 26 ]*/
 .l1-txt1 {
   font-family: Poppins-Thin;
-  font-size: 72px;
+  font-size: 52px;
   line-height: 1.1;
   color: rgba(255,255,255,0.5);
   text-transform: uppercase;
@@ -115,7 +124,22 @@ Primary use:
   text-transform: uppercase;
 }
 
+.brand-title {
+  font-family: BroshK;
+  font-size: 75px;
+  line-height: 1.1;
+  color: rgba(255, 255, 255, 0.815);
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
 
+.brand-slogan {
+  font-family: Redressed;
+  font-size: 24px;
+  /* line-height: 1.1; */
+  color: rgba(255,255,255,0.5);
+  /* letter-spacing: 15px; */
+}
 
 /*==================================================================
    SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
